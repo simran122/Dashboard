@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+{
+    "version": 2,
+    "name": "react-dashboard",
+    "builds": [
+        {
+            "src": "./server.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
+=======
+{
+    "version": 2,
+
+    "builds": [
+        {
+            "src": "./server.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "server.js"
+        }
+    ]
+}
+>>>>>>> 3b17859f3761c1e9e3277a90cb8a35fe2eb43dc5
